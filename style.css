@@ -1,0 +1,52 @@
+body{
+
+}
+
+.tituloPricipal{
+  padding-left: 20px;
+}
+
+#imageBanner{
+  width: 100%;
+}
+
+.ConteudoInicial{
+  background: #CCCCCC;
+  padding: 30px;
+}
+
+.tituloCentralizado{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+#styleMissao{
+  font-size: 25px;
+}
+
+em strong{
+  color: #FFFFFF;
+}
+
+.sessaoBeneficio{
+  background: #FFFFFF;
+  padding: 20px;
+}
+
+.itens{
+  font-style: italic;
+}
+
+ul{
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+.imageBeneficio{
+  width: 60%;
+}
