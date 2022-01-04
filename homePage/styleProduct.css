@@ -7,7 +7,7 @@ body{
   padding: 20px 0;
 }
 
-.container{
+.container-principal{
   position: relative;
   width: 940px;
   margin: 0 auto;
@@ -26,4 +26,37 @@ body{
   font-weight: bold;
   font-size: 27px;
   text-decoration: none;
+}
+
+.corpo-conteudo{
+  background: #FFFFFF;
+  padding: 50px 0;
+}
+
+.container-cards{
+  width: 940px;
+  margin: 0 auto;
+}
+
+.lista-servicos{
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  padding: 30px 0;
+}
+
+.titulo-secundario{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.descricao-produto{
+  font-size: 18px;
+
+}
+
+.valor-produto{
+  font-weight: bold;
+  font-size: 22px;
 }

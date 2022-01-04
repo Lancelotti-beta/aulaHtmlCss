@@ -2,6 +2,10 @@ body{
 
 }
 
+.container{
+  margin: 20px 0;
+}
+
 .tituloPricipal{
   padding-left: 20px;
 }
