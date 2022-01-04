@@ -2,23 +2,48 @@ body{
 
 }
 
-.container{
-  margin: 20px 0;
+/* Sessão principal  */
+.cabecalhoPrincipal-pgInicial{
+  background: #BBBBBB;
+  padding: 20px 0;
 }
 
-.tituloPricipal{
-  padding-left: 20px;
+.container-principal-pgInicial{
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
 }
 
+.cabecalho-nav-pgInicial{
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+.cabecalho-nav-link-pgInicial{
+  margin: 0 0 0 15px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 27px;
+  text-decoration: none;
+}
+
+/*
+ Quando o mause passar por cima, transforme
+  Menu principal
+*/
+.cabecalho-nav-pgInicial .cabecalho-nav-link-pgInicial:hover{
+  color: #C78C19;
+  text-decoration: overline;
+}
+
+/* image style */
 #imageBanner{
   width: 100%;
 }
 
-.ConteudoInicial{
-  background: #CCCCCC;
-  padding: 30px;
-}
-
+/* Sessão conteudo da pagina  */
 .tituloCentralizado{
   text-align: center;
 }
