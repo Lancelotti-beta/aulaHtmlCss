@@ -40,7 +40,8 @@ body{
 
 /* image style */
 #imageBanner{
-  width: 100%;
+  width: 90%;
+  border-radius: 10px;
 }
 
 /* Sessão conteudo da pagina  */
@@ -66,7 +67,7 @@ em strong{
 }
 
 .itens{
-  font-style: italic;
+  font-family: serif;
 }
 
 ul{
@@ -78,4 +79,5 @@ ul{
 
 .imageBeneficio{
   width: 60%;
+  border-radius: 5px 30px;
 }
