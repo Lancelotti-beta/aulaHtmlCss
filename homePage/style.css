@@ -38,19 +38,38 @@ body{
   text-decoration: overline;
 }
 
+/* conteudo style */
+.container-conteudo{
+  padding: 20px;
+}
+
 /* image style */
 #imageBanner{
-  width: 90%;
+  width: 80%;
   border-radius: 10px;
 }
 
 /* Sessão conteudo da pagina  */
+.ConteudoInicial{
+  background: #CCCCCC;
+  border-radius: 12px;
+
+  padding: 20px;
+
+  font-family: 'Scheherazade New', serif;
+}
+
 .tituloCentralizado{
   text-align: center;
+  font-size: 27px;
+  font-weight: bold;
+  margin: 30px 20px;
 }
 
 p{
   text-align: center;
+  font-size: 18px;
+  margin: 30px 20px;
 }
 
 #styleMissao{
@@ -58,21 +77,21 @@ p{
 }
 
 em strong{
-  color: #FFFFFF;
+  color: #C78C19;
 }
 
 .sessaoBeneficio{
   background: #FFFFFF;
   padding: 20px;
+
+  font-family: 'Roboto', sans-serif;
+
 }
 
-.itens{
-  font-family: serif;
-}
-
-ul{
+.lista-itens{
   display: inline-block;
   vertical-align: top;
+
   width: 20%;
   margin-right: 15%;
 }
@@ -80,4 +99,22 @@ ul{
 .imageBeneficio{
   width: 60%;
   border-radius: 5px 30px;
+}
+
+/* Sessão final, Rodapé */
+
+footer{
+  text-align: center;
+  background: url('imagens/bg.jpg');
+
+  padding: 20px;
+}
+
+footer img{
+  margin: 20px;
+}
+
+footer p{
+  color: #FFFFFF;
+  font-weight: 12px;
 }
