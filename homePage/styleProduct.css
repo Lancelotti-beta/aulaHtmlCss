@@ -3,12 +3,12 @@ body{
 }
 
 /* Sessão principal da pagina  */
-.cabecalhoPrincipal{
+.cabecalhoPrincipal-pgProduct{
   background: #BBBBBB;
   padding: 20px 0;
 }
 
-.container-principal{
+.container-principal-pgProduct{
   position: relative;
   width: 940px;
   margin: 0 auto;

@@ -101,20 +101,16 @@ em strong{
   border-radius: 5px 30px;
 }
 
-/* Sessão final, Rodapé */
-
+/* Sessão final - rodapé */
 footer{
   text-align: center;
-  background: url('imagens/bg.jpg');
+  background: url("imagens/bg.jpg");
 
-  padding: 20px;
+  padding: 40px 0;
 }
 
-footer img{
-  margin: 20px;
-}
-
-footer p{
+.texto-footer{
   color: #FFFFFF;
-  font-weight: 12px;
+  font-size: 13px;
+  margin-top: 20px;
 }

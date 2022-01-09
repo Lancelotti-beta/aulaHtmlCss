@@ -1,0 +1,87 @@
+body{
+
+}
+
+/* Sessão principal da pagina  */
+.cabecalhoPrincipal-pgContact{
+  background: #BBBBBB;
+  padding: 20px 0;
+}
+
+.container-principal-pgContact{
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.cabecalho-nav{
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+.cabecalho-nav-link{
+  margin: 0 0 0 15px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 27px;
+  text-decoration: none;
+}
+
+/*
+ Quando o mause passar por cima, transforme
+  Menu principal
+*/
+.cabecalho-nav .cabecalho-nav-link:hover{
+  color: #C78C19;
+  text-decoration: overline;
+}
+
+/* Sessão do fomulario */
+.container-formulario{
+  width: 940px;
+  margin: 0 auto;
+}
+
+.formulario{
+  margin: 40px 0; /* espacçamento externo */
+  padding: 20px; /* espacçamento inerno */
+
+}
+
+.formulario label{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.formulario input{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+
+  width: 50%;
+
+  border: 1px solid;
+  border-radius: 32px;
+}
+
+#input-enviar{
+  width: 25%;
+
+}
+
+/* Sessão final - rodapé */
+footer{
+  text-align: center;
+  background: url("imagens/bg.jpg");
+
+  padding: 40px 0;
+}
+
+.texto-footer{
+  color: #FFFFFF;
+  font-size: 13px;
+  margin-top: 20px;
+}
