@@ -67,6 +67,14 @@ body{
   border-radius: 32px;
 }
 
+.container-contactar{
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 20px;
+}
+
+
+
 #input-enviar{
   width: 25%;
 
