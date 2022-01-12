@@ -56,28 +56,43 @@ body{
   margin: 0 0 10px;
 }
 
-.formulario input{
+.formulario .form-padrao{
   display: block;
   margin: 0 0 20px;
   padding: 10px 25px;
 
   width: 50%;
 
+/* caso eu tenha o interesse de deixar somente uma linha em baixo
+  border: none;
+  border-bottom: 1px solid;
+*/
+
   border: 1px solid;
-  border-radius: 32px;
+  border-radius: 20px;
 }
 
-.container-contactar{
-  display: inline-block;
-  margin: 10px 20px;
-  padding: 20px;
+fieldset{
+  display: block;
+  margin: 5px;
+  padding: 5px 0;
 }
 
+legend {
+  font-size: 20px;
+  padding: 10px 0;
+  margin: 0 0 5px;
+}
 
+.checkbox{
+  padding: 20px 0;
+}
 
 #input-enviar{
   width: 25%;
-
+  margin: 10px;
+  padding: 20px;
+  border-radius: 25px;
 }
 
 /* Sessão final - rodapé */
