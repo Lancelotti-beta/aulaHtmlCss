@@ -118,3 +118,62 @@ footer{
   font-size: 13px;
   margin-top: 20px;
 }
+
+/*============================================================== */
+
+@media screen and (max-width: 480px) {
+  body{
+
+  }
+
+  .container-principal-pgInicial, .ConteudoInicial, .map,
+  .sessaoBeneficio-itens, .partVideo{
+    width: auto;
+  }
+
+  .container-principal-pgInicial{
+    position: static;
+  }
+
+
+  h1{
+    text-align: center;
+    margin: 1em 0 2em;
+  }
+
+  .cabecalho-nav-pgInicial{
+    position: static;
+    margin-bottom: 1em;
+  }
+
+}
+
+@media screen and (max-width: 375px){
+
+  .container-principal-pgInicial{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cabecalho-nav-pgInicial{
+    margin: auto;
+    text-align: center;
+  }
+
+  .cabecalho-nav-link-pgInicial{
+    display: block;
+    padding: 1em 0 1em;
+  }
+}
+
+@media screen and (width: 768px){
+  .container-principal-pgInicial, .ConteudoInicial, .map,
+  .sessaoBeneficio-itens, .partVideo{
+    width: auto;
+  }
+
+  .container-principal-pgInicial{
+    margin: 1em 2em 1em;
+  }
+
+}
