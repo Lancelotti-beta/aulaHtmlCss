@@ -203,3 +203,53 @@ footer{
   font-size: 13px;
   margin-top: 20px;
 }
+
+/* ========================== Sessão para outros display =============================== */
+
+@media screen and (max-width: 480px) {
+  body{
+
+  }
+
+  .container-principal-pgInicial, .ConteudoInicial, .map,
+  .sessaoBeneficio-itens, .partVideo{
+    width: auto;
+  }
+
+  .container-principal-pgInicial{
+    position: static;
+  }
+
+
+  h1{
+    text-align: center;
+    margin: 1em 0 2em;
+  }
+
+  .cabecalho-nav-pgInicial{
+    position: static;
+    margin-bottom: 1em;
+  }
+
+  .lista-itens, .imageBeneficio, .map{
+    width: 100%;
+    margin: 1em 0 1em;
+  }
+
+  .lista-itens{
+    text-align: left;
+  }
+
+  .imageBeneficio{
+    width: 90%;
+  }
+
+  .partVideo{
+    text-align: center;
+  }
+
+  .ConteudoInicial, .sessaoMap, .sessaoBeneficio{
+    padding: 1em;
+  }
+
+}
