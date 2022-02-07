@@ -206,10 +206,39 @@ footer{
 
 /* ========================== Sessão para outros display =============================== */
 
-@media screen and (max-width: 480px) {
-  body{
+@media screen and (max-width: 375px){
 
+  .container-principal-pgInicial{
+    display: flex;
+    flex-direction: column;
   }
+
+  .cabecalho-nav-pgInicial{
+    margin: auto;
+    text-align: center;
+  }
+
+  .cabecalho-nav-link-pgInicial{
+    display: block;
+    padding: 1em 0 1em;
+  }
+}
+
+@media screen and (max-width: 394px){
+
+  .cabecalho-nav-pgInicial{
+    margin: auto;
+    text-align: center;
+  }
+
+  .cabecalho-nav-link-pgInicial{
+    display: block;
+    padding: 1em 0 1em;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
 
   .container-principal-pgInicial, .ConteudoInicial, .map,
   .sessaoBeneficio-itens, .partVideo{
@@ -227,6 +256,7 @@ footer{
   }
 
   .cabecalho-nav-pgInicial{
+    text-align: center;
     position: static;
     margin-bottom: 1em;
   }
@@ -254,24 +284,6 @@ footer{
 
 }
 
-@media screen and (max-width: 375px){
-
-  .container-principal-pgInicial{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .cabecalho-nav-pgInicial{
-    margin: auto;
-    text-align: center;
-  }
-
-  .cabecalho-nav-link-pgInicial{
-    display: block;
-    padding: 1em 0 1em;
-  }
-}
-
 @media screen and (width: 768px){
   .container-principal-pgInicial, .ConteudoInicial, .map,
   .sessaoBeneficio-itens, .partVideo{
@@ -280,6 +292,10 @@ footer{
 
   .container-principal-pgInicial{
     margin: 1em 2em 1em;
+  }
+
+  .cabecalho-nav-link-pgInicial{
+    padding: 0 1em 0;
   }
 
   .ConteudoInicial, .map,
