@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,500&display=swap');
+
+html{
+  font-size: 80%;
+}
+
+body{
+  margin: auto;
+  width: auto;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ========================== Sessão principal ========================================= */
+.cabecalhoPrincipal-pgInicial{
+  background: #BBBBBB;
+  padding: 2rem 0;
+
+}
+
+.container-principal-pgInicial{
+  position: relative;
+
+  width: 100%;
+  max-width: 940px;
+
+  margin: 0 auto;
+}
+
+.cabecalho-nav-pgInicial{
+  position: absolute;
+
+  padding: 0 1rem;
+
+  top: 5rem;
+  right: 0;
+}
+
+.cabecalho-nav-link-pgInicial{
+  margin: 0 0 0 1.5rem;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 700;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+/*
+ Quando o mause passar por cima, transforme
+  Menu principal
+*/
+.cabecalho-nav-pgInicial .cabecalho-nav-link-pgInicial:hover{
+  color: #C78C19;
+  text-decoration: overline;
+}
+
+
+/* ========================== image style ========================================= */
+.imageBanner{
+  width: 100%;
+
+}
+
+/* ===================== Sessão conteudo da pagina ================================ */
+
+.container-conteudo{
+  padding: 1rem 0 0;
+}
+
+.ConteudoInicial{
+  width: 100%;
+  max-width: 940px;
+
+  height: 100%;
+  max-height: 525px;
+
+
+  /* Centralizando a section com os textos */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 2em 0;
+  clear: left;
+
+  background: #FEFEFE;
+}
+
+.tituloPrincipal{
+  color: rgba(0, 0, 0, 0.8);
+
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 1rem 0 3rem;
+}
+
+.utensilio{
+  width: 100%;
+  max-width: 120px;
+
+  float: left;
+  margin: 0 2em 2em 0;
+
+  border: none;
+  border-radius: 10px 5px;
+}
+
+.ConteudoInicial p{
+  text-align: justify;
+  font-weight: 100;
+
+  font-size: 1.8rem;
+  margin: 1rem auto;
+}
+
+.styleMissao{
+ font-weight: 300;
+}
+
+.ConteudoInicial strong{
+  font-weight: bold;
+}
+
+.ConteudoInicial em{
+  font-style: italic;
+}
+
+/*  Sessão de Localização  */
+.sessaoMap{
+  background: linear-gradient(#FEFEFE, #888888);
+
+  padding: 3em 0;
+  text-align: center;
+}
+
+.sessaoMap p{
+  font-weight: 300;
+  margin: 0 0 2em;
+
+  font-size: 1.8rem;
+}
+
+.map{
+  width: 100%;
+  max-width: 940px;
+
+  margin: 0 auto;
+}
+
+.map iframe{
+  width: 90%;
+}
+
+/* ==========  Sessão de Beneficios =============================================== */
+.sessaoBeneficio{
+  padding: 3em 0;
+  background: #888888;
+}
+
+/* Lista de Beneficios */
+
+.sessaoBeneficio-itens{
+  width: 100%;
+  max-width: 940px;
+
+  margin: 0 auto;
+
+  font-weight: 100;
+  font-size: 1.3rem;
+
+  display: flex;
+}
+
+.lista-itens{
+  display: inline-block;
+  vertical-align: top;
+
+  width: 50%;
+  margin: auto;
+}
+
+.itens{
+  line-height: 1.5;
+}
+
+.itens:first-child{
+  font-weight: bold;
+}
+
+.itens::before{
+  content: "★";
+}
+
+.imageBeneficio{
+  width: 50%;
+  margin: auto;
+
+  border-radius: 30px 10px;
+
+  box-shadow: 1em 1em 0 0 #000;
+
+  /*
+  transition: 400ms;
+  opacity: 0.3;
+  */
+}
+
+/* Remover opacidade do objeto
+.imageBeneficio:hover{
+  opacity: 1;
+}
+*/
+
+/*  Parte do video da barbearia  */
+.partVideo{
+  width: 90%;
+  max-width: 940px;
+
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  padding: 3em 0;
+
+}
+
+
+/* ========================== Sessão final - rodapé =================================== */
+footer{
+  text-align: center;
+  background: url("imagens/bg.jpg");
+
+  padding: 40px 0;
+}
+
+.texto-footer{
+  color: #FFFFFF;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+/* ========================== Sessão para outros display =============================== */
+@media screen and (max-width: 972px){
+  .container-principal-pgInicial{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cabecalho-nav-pgInicial{
+    position: static;
+    text-align: center;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  .ConteudoInicial p{
+    margin: 1em auto;
+    font-size: 1.3rem;
+  }
+
+  .sessaoMap p{
+    font-size: 1.4rem;
+  }
+
+  .lista-itens,.imageBeneficio{
+    width: 30%
+  }
+}
+
+
+@media screen and (max-width: 711px){
+  .container-principal-pgInicial{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cabecalho-nav-pgInicial{
+    position: static;
+    display: grid;
+
+    text-align: center;
+  }
+
+  .cabecalho-nav-link-pgInicial{
+    margin: 1em auto;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  .ConteudoInicial{
+    display: grid;
+    margin: 1em auto;
+  }
+
+  .ConteudoInicial p{
+    margin: 1em auto;
+    font-size: 1.2rem;
+  }
+
+  .utensilio{
+    margin: auto;
+  }
+
+  .sessaoMap{
+    margin: 2em auto 0;
+  }
+
+  .sessaoMap p{
+    font-size: 1.2rem;
+  }
+
+  .sessaoBeneficio-itens{
+    display: grid;
+  }
+
+  .lista-itens, .imageBeneficio{
+    margin: 1em auto;
+  }
+
+  .lista-itens{
+    font-size: 1rem;
+  }
+}

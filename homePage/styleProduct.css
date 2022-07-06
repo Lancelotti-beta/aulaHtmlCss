@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,500&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Sessão principal da pagina  */
+.cabecalhoPrincipal-pgProduct{
+  background: #BBBBBB;
+  padding: 20px 0;
+}
+
+.container-principal-pgProduct{
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.cabecalho-nav{
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+.cabecalho-nav-link{
+  margin: 0 0 0 15px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 700;
+  font-size: 27px;
+  text-decoration: none;
+}
+
+/*
+ Quando o mause passar por cima, transforme
+  Menu principal
+*/
+.cabecalho-nav .cabecalho-nav-link:hover{
+  color: #C78C19;
+  text-decoration: overline;
+}
+
+
+/* Sessão de produtos da pagina */
+.corpo-conteudo{
+  padding: 50px 0;
+}
+
+.container-cards{
+  width: 940px;
+  margin: 0 auto;
+  padding: 25px 75px;
+}
+
+.lista-servicos{
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+
+  margin: 0 1.5%;
+  box-sizing: border-box;
+
+  border: 2px solid #000000;
+  border-radius: 30px 10px;
+}
+
+.titulo-secundario{
+  font-size: 27px;
+  font-weight: bold;
+  margin: 30px 20px;
+}
+
+.descricao-produto{
+  font-size: 18px;
+  margin: 30px 20px;
+}
+
+.valor-produto{
+  font-size: 22px;
+  font-weight: bold;
+  margin: 30px 20px;
+}
+
+/*
+ Quando o mause passar por cima, transforme
+ Sessão de Produtos
+*/
+.lista-servicos:hover{
+  border: 4px solid #C78C19;
+  border-radius: 10px 30px;
+
+  color: #C78C19;
+}
+
+.lista-servicos:hover .titulo-secundario{
+  font-size: 33px;
+}
+
+.lista-servicos:hover .descricao-produto{
+  font-size: 22px;
+}
+
+.lista-servicos:hover .valor-produto{
+  font-size: 27px;
+}
+
+/* Sessão final - rodapé */
+footer{
+  text-align: center;
+  background: url("imagens/bg.jpg");
+
+  padding: 40px 0;
+}
+
+.texto-footer{
+  color: #FFFFFF;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+/*============================================================== */
+
+@media screen and (max-width: 1024px){
+  .container-cards{
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .cabecalhoPrincipal-pgProduct,
+  .container-principal-pgProduct{
+    width: auto;
+  }
+
+  .container-principal-pgProduct{
+    margin: 1em 2em 2em;
+  }
+
+  .cabecalho-nav-link{
+    padding: 0 1em 0;
+  }
+
+  .container-cards{
+    width: auto;
+    text-align: center;
+
+    padding: 1em;
+    margin: 1em;
+  }
+
+  .lista-servicos{
+    display: block;
+    flex-direction: column;
+
+    padding: 1em 0 1em;
+    margin: 1em;
+
+    width: auto;
+  }
+
+  .titulo-secundario{
+    font-size: 2em;
+  }
+
+
+  .lista-servicos img{
+    width: 70%;
+    height: 70%;
+
+    padding: 1em;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .cabecalhoPrincipal-pgProduct,
+  .container-principal-pgProduct,
+  .container-cards, .lista-servicos{
+    width: auto;
+  }
+
+  h1{
+    text-align: center;
+    padding-bottom: 2em;
+  }
+
+  .cabecalho-nav{
+    position: static;
+
+    text-align: center;
+  }
+
+  .cabecalho-nav-link{
+    padding: auto;
+  }
+
+  .lista-servicos{
+    padding: 1em;
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 375px){
+
+  .cabecalhoPrincipal-pgProduct,
+  .container-principal-pgProduct,
+  .container-cards, .lista-servicos{
+    width: auto;
+  }
+
+  .container-principal-pgProduct{
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  .cabecalho-nav{
+    position: static;
+
+    margin: auto;
+    text-align: center;
+  }
+
+  .cabecalho-nav-link{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0 1em;
+  }
+
+  .container-cards{
+    padding: 1em 1em;
+    margin: 1em;
+  }
+
+  .lista-servicos{
+    width: auto;
+    height: auto;
+
+    padding: 1em;
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container-principal-pgProduct, .ConteudoInicial,
+  .container-cards, .lista-servicos{
+    width: auto;
+  }
+
+  .container-principal-pgProduct{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  h1{
+    text-align: center;
+    width: auto;
+    margin: 1em 0 2em;
+  }
+
+  .cabecalho-nav{
+    position: static;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 1em;
+  }
+
+  .cabecalho-nav-link{
+    padding: 1em 0;
+    text-align: center;
+  }
+
+  .container-cards{
+    padding: 1em;
+  }
+
+  .lista-servicos{
+    padding: 1em;
+    margin: 1em 0 1em;
+  }
+
+  .lista-servicos img{
+    width: auto;
+    height: auto;
+  }
+
+
+}

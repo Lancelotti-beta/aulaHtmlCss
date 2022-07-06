@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,500&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+/* Sessão principal da pagina  */
+.cabecalhoPrincipal-pgContact{
+  background: #BBBBBB;
+  padding: 20px 0;
+}
+
+.container-principal-pgContact{
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.cabecalho-nav{
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+.cabecalho-nav-link{
+  margin: 0 0 0 15px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 700;
+  font-size: 27px;
+  text-decoration: none;
+}
+
+/*
+ Quando o mause passar por cima, transforme
+  Menu principal
+*/
+.cabecalho-nav .cabecalho-nav-link:hover{
+  color: #C78C19;
+  text-decoration: overline;
+}
+
+/* Sessão do fomulario */
+.container-formulario{
+  width: 940px;
+  margin: 0 auto;
+}
+
+.formulario{
+  margin: 40px 0; /* espacçamento externo */
+  padding: 20px; /* espacçamento inerno */
+
+}
+
+.formulario label{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.formulario .form-padrao{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+
+  width: 50%;
+
+/* caso eu tenha o interesse de deixar somente uma linha em baixo
+  border: none;
+  border-bottom: 1px solid;
+*/
+
+  border: 1px solid;
+  border-radius: 20px;
+}
+
+fieldset{
+  display: block;
+  margin: 5px;
+  padding: 5px 0;
+}
+
+legend {
+  font-size: 20px;
+  padding: 10px 0;
+  margin: 0 0 5px;
+}
+
+.checkbox{
+  padding: 15px 0;
+}
+
+.input-enviar{
+  width: 40%;
+  margin: 40px;
+  padding: 20px 0;
+
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+
+  border: none;
+  border-radius: 20px;
+
+  background: orange;
+  transition: 1s all;
+
+  cursor: pointer;
+}
+
+.input-enviar:hover{
+  background: darkorange;
+  transform: scale(1.2);
+}
+
+table{
+  margin: 20px 0 80px;
+}
+
+thead{
+  background: #CCC;
+  color: #FFF;
+
+  font-weight: bold;
+  font-size: 18px
+}
+
+td, th{
+  border: 1px solid #000;
+
+  padding: 8px 12px;
+}
+
+/* Sessão final - rodapé */
+footer{
+  text-align: center;
+  background: url("imagens/bg.jpg");
+
+  padding: 40px 0;
+}
+
+.texto-footer{
+  color: #FFFFFF;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+/*=======================================================*/
