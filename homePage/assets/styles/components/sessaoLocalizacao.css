@@ -1,24 +1,31 @@
-.sessaoMap {
-    background: linear-gradient(#FEFEFE, #888888);
-
-    padding: 3em 0;
-    text-align: center;
+.map{
+  background: linear-gradient(#FEFEFE, #888888);
+  padding: 2rem 0 4rem;
+  text-align: center;
 }
 
-.sessaoMap p {
-    font-weight: 300;
-    margin: 0 0 2em;
+.map__titulo {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 3.2rem;
+  font-weight: 300;
 
-    font-size: 1.8rem;
+  padding: 2rem 0;
 }
 
-.map {
-    width: 100%;
-    max-width: 940px;
+.map p{
+  font-weight: 100;
+  margin: 0 0 2em;
 
-    margin: 0 auto;
+  font-size: 1.8rem;
 }
 
-.map iframe {
-    width: 90%;
+.map__quadro{
+  width: 90%;
+  max-width: 940px;
+
+  margin: 0 auto;
+}
+
+.map__quadro iframe{
+  width: 100%;
 }

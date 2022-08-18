@@ -1,71 +1,58 @@
-.sessaoBeneficio {
-    padding: 3em 0;
+.beneficio {
     background: #888888;
+    padding: 3em 0;
+    text-align: center;
 }
 
-/* Lista de Beneficios */
+.beneficio__titulo {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 3.2rem;
+    font-weight: 300;
+    padding: 2rem 0 4rem;
+}
 
-.sessaoBeneficio-itens {
-    width: 100%;
-    max-width: 940px;
+.beneficio__contaier {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 
     margin: 0 auto;
+    width: 90%;
+    max-width: 940px;
+}
 
-    font-weight: 100;
-    font-size: 1.3rem;
-
-    display: flex;
+.beneficio__lista {
+    text-align: start;
+    width: 50%;
 }
 
 .lista-itens {
-    display: inline-block;
-    vertical-align: top;
-
-    width: 50%;
-    margin: auto;
-}
-
-.itens {
+    font-size: 1.6rem;
+    font-weight: 100;
     line-height: 1.5;
 }
 
-.itens:first-child {
+.lista-itens:first-child {
     font-weight: bold;
 }
 
-.itens::before {
+.lista-itens::before {
     content: "★";
 }
 
-.imageBeneficio {
-    width: 50%;
-    margin: auto;
-
+.beneficio__image {
     border-radius: 30px 10px;
-
-    box-shadow: 1em 1em 0 0 #000;
-
-    /*
-    transition: 400ms;
-    opacity: 0.3;
-    */
+    box-shadow: 1rem 1rem 0 0 #000;
+    width: 50%;
 }
 
-/* Remover opacidade do objeto
-  .imageBeneficio:hover{
-    opacity: 1;
-  }
-  */
-
-/*  Parte do video da barbearia  */
-.partVideo {
+.beneficio__video {
+    margin: 3rem auto;
     width: 90%;
     max-width: 940px;
+}
 
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-
-    padding: 3em 0;
-
+.beneficio__video iframe {
+    height: 500px;
+    width: 100%;
 }

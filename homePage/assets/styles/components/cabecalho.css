@@ -4,23 +4,29 @@
 }
 
 
-.container__container {
-    position: relative;
+.cabecalho__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
     margin: 0 auto;
     max-width: 940px;
     width: 90%;
+    height: 96px;
+}
+
+.cabecalho__image {
+    width: 50%;
 }
 
 .cabecalho__nav {
-    position: absolute;
-    padding: 0 1rem;
-    top: 50%;
-    transform: translate(0, -50%);
-    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
 }
 
 .cabecalho__nav-link {
-    margin: 0 0 0 1.5rem;
     text-transform: uppercase;
     color: #000000;
     font-weight: 700;
