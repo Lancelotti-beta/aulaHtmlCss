@@ -1,0 +1,71 @@
+.sessaoBeneficio {
+    padding: 3em 0;
+    background: #888888;
+}
+
+/* Lista de Beneficios */
+
+.sessaoBeneficio-itens {
+    width: 100%;
+    max-width: 940px;
+
+    margin: 0 auto;
+
+    font-weight: 100;
+    font-size: 1.3rem;
+
+    display: flex;
+}
+
+.lista-itens {
+    display: inline-block;
+    vertical-align: top;
+
+    width: 50%;
+    margin: auto;
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.itens::before {
+    content: "★";
+}
+
+.imageBeneficio {
+    width: 50%;
+    margin: auto;
+
+    border-radius: 30px 10px;
+
+    box-shadow: 1em 1em 0 0 #000;
+
+    /*
+    transition: 400ms;
+    opacity: 0.3;
+    */
+}
+
+/* Remover opacidade do objeto
+  .imageBeneficio:hover{
+    opacity: 1;
+  }
+  */
+
+/*  Parte do video da barbearia  */
+.partVideo {
+    width: 90%;
+    max-width: 940px;
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    padding: 3em 0;
+
+}

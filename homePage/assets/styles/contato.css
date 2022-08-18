@@ -1,43 +1,10 @@
+@import url(./abstract/_reset.css);
+@import url(./abstract/_base.css);
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,500&display=swap');
 
-body{
-  font-family: 'Roboto', sans-serif;
-}
-/* Sessão principal da pagina  */
-.cabecalhoPrincipal-pgContact{
-  background: #BBBBBB;
-  padding: 20px 0;
-}
-
-.container-principal-pgContact{
-  position: relative;
-  width: 940px;
-  margin: 0 auto;
-}
-
-.cabecalho-nav{
-  position: absolute;
-  top: 110px;
-  right: 0;
-}
-
-.cabecalho-nav-link{
-  margin: 0 0 0 15px;
-  text-transform: uppercase;
-  color: #000000;
-  font-weight: 700;
-  font-size: 27px;
-  text-decoration: none;
-}
-
-/*
- Quando o mause passar por cima, transforme
-  Menu principal
-*/
-.cabecalho-nav .cabecalho-nav-link:hover{
-  color: #C78C19;
-  text-decoration: overline;
-}
+@import url(./components/cabecalho.css);
+@import url(./components/rodape.css);
 
 /* Sessão do fomulario */
 .container-formulario{

@@ -1,0 +1,34 @@
+.cabecalho{
+    background: #BBBBBB;
+    padding: 2rem 0;
+}
+
+
+.container__container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 940px;
+    width: 90%;
+}
+
+.cabecalho__nav {
+    position: absolute;
+    padding: 0 1rem;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 0;
+}
+
+.cabecalho__nav-link {
+    margin: 0 0 0 1.5rem;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 700;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.cabecalho__nav .cabecalho__nav-link:hover {
+    color: #C78C19;
+    text-decoration: overline;
+}

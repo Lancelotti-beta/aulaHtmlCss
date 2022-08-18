@@ -1,0 +1,11 @@
+.rodape {
+    text-align: center;
+    background: url("../../imagens/bg.jpg");
+    padding: 4rem 0;
+}
+
+.rodape__texto {
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}

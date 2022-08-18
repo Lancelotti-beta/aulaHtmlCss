@@ -1,0 +1,14 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    padding: 1rem 0;
+    
+}
+

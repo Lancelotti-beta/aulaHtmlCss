@@ -1,0 +1,51 @@
+.inicial {
+    background: #FEFEFE;
+    clear: left;
+    display: block;
+    padding: 2em 0;
+    margin: 0 auto;
+    max-width: 940px;
+    width: 100%;
+    max-height: 525px;
+    height: 100%;
+}
+
+.inicial__titulo {
+    color: rgba(0, 0, 0, 0.8);
+
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 500;
+    margin: 1rem 0 3rem;
+}
+
+.inicial__utensilio {
+    width: 100%;
+    max-width: 120px;
+
+    float: left;
+    margin: 0 2em 2em 0;
+
+    border: none;
+    border-radius: 10px 5px;
+}
+
+.inicial p {
+    text-align: justify;
+    font-weight: 100;
+
+    font-size: 1.8rem;
+    margin: 1rem auto;
+}
+
+.inicial__missao {
+    font-weight: 300;
+}
+
+.inicial strong {
+    font-weight: bold;
+}
+
+.inicial em {
+    font-style: italic;
+}
